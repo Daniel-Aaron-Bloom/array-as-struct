@@ -1,0 +1,15 @@
+workspace = { members = ["derive"] }
+
+[package]
+name = "array-as-struct"
+version = "0.1.0"
+edition = "2021"
+documentation = "https://docs.rs/array-as-struct"
+readme = "README.md"
+repository = "https://github.com/Daniel-Aaron-Bloom/array-as-struct"
+license = "MIT OR Apache-2.0"
+keywords = ["struct", "array", "field", "conversion", "named-fields"]
+categories = ["rust-patterns", "no-std", "no-std::no-alloc"]
+
+[dependencies]
+array-as-struct-derive = { path = "./derive" }
