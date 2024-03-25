@@ -1,8 +1,14 @@
 [package]
-categories = ["proc-macros"]
 name = "array-as-struct-derive"
 version = "0.1.0"
+authors = ["Daniel Bloom"]
 edition = "2021"
+description = "proc macros for the array-as-struct crate"
+readme = "../README.md"
+repository = "https://github.com/Daniel-Aaron-Bloom/array-as-struct"
+license = "MIT OR Apache-2.0"
+keywords = ["struct", "array", "field", "conversion", "named-fields"]
+categories = ["proc-macros"]
 
 [lib]
 proc-macro = true
